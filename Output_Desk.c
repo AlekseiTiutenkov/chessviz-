@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
-
 void Board(char A[9][9], int n)
 {
     int j, i;
@@ -72,20 +69,3 @@ void Board(char A[9][9], int n)
     }
 }
 
-void step(char A[9][9], int n){
-		int b,d;
-		char a,c, defis;
-		printf("Figure/kuda?\n");
-		scanf("%c%d%c%c%d",&a,&b,&defis,&c,&d);
-	//	printf("%c%d%c%d\n", a,b,c,d);
-}
-
-
-int main()
-{
-    char A[9][9];
-    Board(A, 9);
-    step(A,9);
-    system("Pause");
-    return 0;
-}
