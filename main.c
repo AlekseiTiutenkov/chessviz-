@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
-
+void Board(char A[9][9], int n);
+void step(char A[9][9], int n);
 int main()
 {
     char A[9][9];

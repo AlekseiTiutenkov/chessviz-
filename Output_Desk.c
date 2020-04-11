@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <stdlib.h>
+
 void Board(char A[9][9], int n)
 {
     int j, i;
